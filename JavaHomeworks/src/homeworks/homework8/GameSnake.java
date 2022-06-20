@@ -58,7 +58,7 @@ public class GameSnake extends JFrame {
 
 
     public static void main(String[] args) throws IOException {
-        background = ImageIO.read(new java.io.File("src/homeworks/homework8/background.jpg"));
+        background = ImageIO.read(new java.io.File("JavaHomeworks/src/homeworks/homework8/background.jpg"));
         new GameSnake().game();
     }
 
